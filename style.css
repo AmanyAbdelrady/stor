@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+.videos.section{
+    display:gray;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem;
+    border-top: 4px solid #ccc;
+}
+.videos-container{
+    display: flex;
+    flex-direction: column;
+}
+.th{
+    position: relative;
+      display: flex; 
+    
+}
+
+.th-image{
+    width: 100%;
+     height: 100%;
+     min-width: 250px;
+     min-height: 150%;
+     margin-left: 5rem;
+    
+    
+}
+.videos-bottom-section{
+    margin-top: 1rem;
+}
+.channel-icon{
+    margin-right: .75rem;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #aaa;
+}
+.video-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+/* .Menu ul li{
+    float: left;
+    margin-right: 60px;
+    margin-top: 40px;
+} */
+
+/* input,button{
+    border-radius: 0;
+    border: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+/* .categoriesSection{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 15px; 
+} 
+/* .categories{
+    width: 100%;
+    display: flex;
+    /* padding: 12.5px 25px; 
+} */
+
+
